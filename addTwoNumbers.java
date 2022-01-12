@@ -16,6 +16,7 @@ public class Main {
         int sum = addTwoNumbers(a,b);
 
         System.out.println("sum of two numbers is : " + sum);  //call the function
+        
 
     }
 }
