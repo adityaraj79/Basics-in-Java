@@ -40,7 +40,12 @@ public class Main {
         }else{
             System.out.println("String are not equal");
         }
-          
+            
+        //if( name1 == name2 ){
+        //    System.out.println("String are equal");
+        //}else{                                                 //we can also use this in place of the above
+        //    System.out.println("String are not equal");          But it doesn't work in some case .
+        //}  
 
     }
 }
