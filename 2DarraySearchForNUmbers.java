@@ -21,8 +21,7 @@ public class Main {
         for(int i=0; i<row; i++){
             for(int j = 0; j<column; j++){
                 if(number[i][j] == x){
-                    System.out.println(i);
-                    System.out.println(j);
+                    System.out.println("Indices are(" + i +"," +j +")");
                 }
             }
         }
