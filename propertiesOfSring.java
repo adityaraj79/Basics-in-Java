@@ -22,6 +22,24 @@ public class Main {
          for(int i = 0; i<fullname.length(); i++){
            System.out.println(fullname.charAt(i));
          }  
+            
+             // 4) Compare
+
+        String name1 = "Tony";
+        String name2 = "Tony";
+        //s1>s2: +ve value
+        //s1<s2: -ve value
+        //s1==s2: 0
+
+        //hello < wello
+        //ahello < abello
+        //ello>allo
+
+        if( name1.compareTo(name2)==0 ){
+            System.out.println("String are equal");
+        }else{
+            System.out.println("String are not equal");
+        }
           
 
     }
